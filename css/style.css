@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background-color:#F08080;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+   
+
+}
+
+.column {
+    flex: 20%;
+    max-width: 300px;
+    padding: 0 10px;
+    border: 10px solid #AED6F1;
+     margin: 0 auto;
+    
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+    width:100%;
+    
+}
